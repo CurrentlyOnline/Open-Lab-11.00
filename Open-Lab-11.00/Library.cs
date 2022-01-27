@@ -24,7 +24,10 @@ namespace Open_Lab_11._00
             numberOfBooks = booksList.Count;
             numberOfStudents = studentsList.Count;
 
-            Console.WriteLine(numberOfStudents + numberOfBooks);
+            string k = "Počet kníh:";
+            string s = "Počet Študentov:";
+            string jo = k + numberOfBooks + "\n" + s + numberOfStudents;
+            Console.WriteLine(jo);
         }
 
     }
